@@ -17,16 +17,16 @@ Versão sem deadlock: src/parte 1-filosofos/problema sem deadlock.py
 ![Diagrama.png](src/parte 1-filosofos/Diagrama.png)
 
 # *-Parte 2 - Semaforo*
-Tabela de Resultados
-
-| Versão | Execução | Valor Esperado | Valor Obtido | Tempo (s) |
-| Sem Semáforo | 1 | 1600000 | 200280 | 1.1446 |
-| Sem Semáforo | 2 | 1600000 | 200640 | 1.1538 |
-| Sem Semáforo | 3 | 1600000 | 200420 | 1.1586 |
-
-| Com Semáforo | 1 | 1600000 | 1600000 | 2.2008 |
-| Com Semáforo | 2 | 1600000 | 1600000 | 2.2029 |
-| Com Semáforo | 3 | 1600000 | 1600000 | 1.8701 |
+### Tabela de Resultados
+ 
+| Versão       | Execução | Valor Esperado | Valor Obtido | Tempo (s) |
+|--------------|:--------:|---------------:|-------------:|----------:|
+| Sem Semáforo |    1     |        1600000 |       200280 |    1.1446 |
+| Sem Semáforo |    2     |        1600000 |       200640 |    1.1538 |
+| Sem Semáforo |    3     |        1600000 |       200420 |    1.1586 |
+| Com Semáforo |    1     |        1600000 |      1600000 |    2.2008 |
+| Com Semáforo |    2     |        1600000 |      1600000 |    2.2029 |
+| Com Semáforo |    3     |        1600000 |      1600000 |    1.8701 |
 
 
 Por que a versão sem sincronização perde incrementos
