@@ -1,5 +1,5 @@
 # TDE-PFSC
-Davi BAista & Enzo Bortolozzo Borges
+Davi Batista & Enzo Bortolozzo Borges
 
 
 # Video Youtube
